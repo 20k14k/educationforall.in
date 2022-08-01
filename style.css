@@ -1,0 +1,400 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  font-family: "Baloo Bhai 2", cursive;
+}
+body {
+  background-image: url(https://images.unsplash.com/photo-1481627834876-b7833e8f5570?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=628&q=80);
+}
+
+/* navbar ka CSS */
+.left img {
+  width: 100px;
+  border: solid 1px white;
+}
+
+div.container_header {
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  border: 2px rgb(33 37 47 / 95%) solid;
+  background-color: rgb(33 37 47 / 90%);
+  height: 100px;
+}
+.left div {
+  font-family: "Cedarville Cursive", cursive;
+  line-height: 19px;
+  font-size: 15px;
+  text-align: center;
+  color: white;
+}
+.left {
+  display: inline-block;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+.mid {
+  display: block;
+  width: fit-content;
+  margin: 25px auto;
+  border: 2px solid white;
+  border-radius: 360px;
+}
+.right {
+  font-size: large;
+  text-align: center;
+  width: 245px;
+  line-height: 15px;
+  display: inline-block;
+  position: absolute;
+  top: 0px;
+  right: 10px;
+  margin: 2px auto;
+}
+#rightnav li{
+  display: block;
+}
+.navbar li {
+  display: inline;
+  padding: 6px;
+  margin: 9px;
+}
+.navbar li a {
+  font-size: 20px;
+  text-decoration: none;
+  text-align: center;
+  color: white;
+}
+.navbar li a:hover,
+.navbar li a.active {
+  text-decoration: underline;
+  color: rgba(255, 255, 255, 0.695);
+}
+
+/* introduction ka CSS */
+div.intro {
+  margin-top: 120px;
+}
+.header {
+  border: 2px solid black;
+  /* border-radius: 360px; */
+  border-radius: 0px 30px;
+  background-color: rgba(240, 248, 255, 0.85);
+  box-shadow: -2px 2px 5px;
+  text-align: center;
+  text-transform: capitalize;
+  font-size: 25px;
+  font-weight: bold;
+  display: block;
+  width: 30%;
+  margin: 15px auto;
+}
+.text {
+  border: 2px solid black;
+  border-radius: 10px;
+  padding: 15px;
+  background-color: #f0f8ffa6;
+  box-shadow: -2px 2px 5px;
+  text-align: justify;
+  font-size: 20px;
+  display: block;
+  width: 80%;
+  margin: 10px auto;
+}
+
+/* founder ka CSS */
+
+div.founder {
+  border: 1px solid white;
+  border-radius: 10px;
+  margin: 5px 10px;
+}
+legend {
+  text-align: center;
+}
+
+div.founderimage > img {
+  width: 170px;
+  padding: 3px;
+  border: black solid 1px;
+  border-radius: 40px;
+}
+
+/* opportunity ka CSS */
+#opportunitytext {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#opportunityheading {
+  width: 35%;
+}
+#opportunitytext {
+  width: 90%;
+  /* display: flex; */
+}
+.opportunityimage img {
+  width: 290px;
+  padding: 3px;
+  border: black solid 1px;
+  border-radius: 40px;
+}
+
+#leftimage {
+  display: inline-block;
+  /* position: absolute; */
+  width: 300px;
+  margin: 50px auto;
+  /* top: 935px; */
+  /* left: 74px; */
+}
+#midtext {
+  display: inline-block;
+  /* display: block; */
+  width: 550px;
+  margin: 20px auto;
+}
+#rightimage {
+  display: inline-block;
+  /* position: absolute; */
+  width: 300px;
+  margin: 50px auto;
+  /* top: 1015px; */
+  /* right: 74px; */
+}
+
+/* partners details ka CSS */
+.partnersdetails {
+  border: 1px solid white;
+  border-radius: 10px;
+  margin: 20px 10px;
+}
+.partnerfieldset {
+  background-color: #b6f1f61a;
+  border: solid black 1px;
+  border-radius: 360px;
+  line-height: 25px;
+  width: 35%;
+  text-align: center;
+  display: inline-block;
+  margin: 20px 70px;
+  box-shadow: 3px 3px 15px;
+}
+.partnerfieldsetlast {
+  border: solid black 1px;
+  border-radius: 50px;
+  width: 35%;
+  text-align: center;
+  display: block;
+  margin: 20px auto;
+  box-shadow: 3px 3px 15px;
+}
+.partnerimage {
+  width: 120px;
+  padding: 3px;
+  border: black solid 1px;
+  border-radius: 360px;
+}
+
+/* media ka CSS */
+.mediafieldset {
+  background-color: #b6f1f61a;
+  border: solid black 1px;
+  border-radius: 50px;
+  width: 35%;
+  text-align: center;
+  display: inline-block;
+  margin: 20px 70px;
+  box-shadow: 3px 3px 15px;
+}
+.mediafieldsetlast {
+  background-color: #b6c9f64d;
+  border: solid black 1px;
+  border-radius: 50px;
+  width: 35%;
+  text-align: center;
+  display: block;
+  margin: 20px auto;
+  box-shadow: 3px 3px 15px;
+}
+.mediaimage {
+  width: 360px;
+  border-radius: 50px;
+}
+.mediaimagelast {
+  width: 530px;
+  border-radius: 50px;
+}
+.medialegend {
+  background-color: #c3d7d9c2;
+  border-radius: 170px;
+  padding: 1px 2px;
+}
+
+/* footer ka CSS */
+.footer {
+  text-align: center;
+  background-color: black;
+  margin: 0px;
+  padding: 5px;
+}
+#footerheading,
+#lastline {
+  font-size: medium;
+  margin: 2px auto;
+  background-color: #f0f8ff00;
+  box-shadow: 0px 0px 0px;
+  border: 0px;
+  color: white;
+}
+.button {
+  display: inline-block;
+  width: 20%;
+  margin: 5px auto;
+}
+.footerbutton {
+  font-size: 18px;
+  padding: 5px;
+  font-weight: bold;
+  background-color: #b6f1f61a;
+  color: white;
+  border: solid white 2px;
+  border-radius: 360px;
+}
+.footerbutton:hover {
+  color: black;
+  background-color: #b6f1f6ab;
+  cursor: pointer;
+}
+
+/* -------------Media Queries------------ */
+@media screen and (max-width: 850px) {
+  div.container_header {
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    height: 100px;
+  }
+  .left img {
+    width: 100px;
+  }
+  .left div {
+    line-height: 8px;
+    font-size: 15px;
+  }
+  .left {
+    top: 5px;
+    left: 5px;
+  }
+  .right{
+    display: inline-block;
+    position: absolute;
+    top: 0px;
+    right: -10px;
+    margin: 2px auto;
+  }
+  ul.navbar > li.rightli > a {
+    color: white;
+  }
+  .mid {
+    position: absolute;
+    width: 100%px;
+    top: 85px;
+    margin: 10px;
+    border: 2px solid white;
+    background-color: #414651;
+    border-radius: 360px;
+  }
+  .navbar li {
+    display: inline;
+    padding: 3px;
+    margin-top: 0px;
+  }
+  .navbar li a {
+    color: white;
+    font-size: small;
+    font-weight: bolder;
+    margin: 1px;
+    line-height: 10px;
+  }
+  div.intro {
+    margin-top: 165px;
+  }
+  .header {
+    font-size: 18px;
+    display: block;
+    width: 80%;
+    margin: 15px auto;
+  }
+  .text {
+    padding: 5px;
+    font-size: 13px;
+    width: 95%;
+    margin: 10px auto;
+  }
+  div.founderimage > img {
+    width: 80px;
+    padding: 3px;
+    border: black solid 1px;
+    border-radius: 15px;
+  }
+  .opportunity > #opportunityheading {
+    width: 85%;
+    font-size: 15px;
+  }
+  #opportunitytext {
+    display: flex;
+    flex-direction: column;
+  }
+  #midtext {
+    width: 280px;
+    margin: -40px auto;
+  }
+  .opportunityimage img {
+    width: 225px;
+  }
+  .partnerfieldset {
+    border-radius: 15px;
+    line-height: 15px;
+    width: 50%;
+    margin: 8px -2px;
+  }
+  .partnerfieldsetlast {
+    border-radius: 15px;
+    width: 50%;
+    line-height: 15px;
+    text-align: center;
+    display: block;
+    margin: 8px auto;
+  }
+  .partnerimage {
+    width: 80px;
+    border-radius: 30px;
+  }
+  .mediaimage,
+  .mediaimagelast {
+    width: 282px;
+    border-radius: 40px;
+  }
+  .mediafieldset {
+    border-radius: 50px;
+    width: 61%;
+    text-align: center;
+    display: inline-block;
+    margin: 10px 23px;
+  }
+  #footerheading,
+  #lastline {
+    font-size: 11px;
+  }
+  .button {
+    display: inline-block;
+    width: 30%;
+    margin: 5px auto;
+  }
+  .footerbutton {
+    font-size: 10px;
+  }
+}

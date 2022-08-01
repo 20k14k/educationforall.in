@@ -1,0 +1,315 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: rgba(191, 242, 250, 0.094);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/* header ki styling */
+div.header{
+    margin: 1%;
+    padding: 5px;
+    border: solid black 3px ;
+    border-radius: 5px;
+    width: fit-content;
+    background-color: white;
+    text-align: center;
+}
+img.header{
+    width: 100%;
+    border: solid black 1px ;
+    border-radius: 4px;
+}
+
+/* navigation bar ki styling */
+
+h3.nav_box{
+    font-weight: bolder;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    font-weight: bold;
+}
+nav{
+    text-transform: capitalize;
+    background-color: rgba(24, 18, 18, 0.759);
+    color: white;
+    padding: 20px;
+    text-decoration: none;
+    font-size: 23px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    line-height: 34px;
+    float: left;
+    margin: 1%;
+    border-radius: 10px;
+    box-shadow: black -2px 3px 4px, inset rgb(0, 0, 0) 2px -3px 4px, inset rgba(0, 0, 0, 0.218) -2px 3px 4px;
+}
+
+/* intro ki styling */
+section.intro{
+    border: solid black 1px;
+    box-shadow: black -2px 3px 4px, inset rgba(0, 0, 0, 0.218) 2px -3px 4px, inset rgba(0, 0, 0, 0.218) -2px 3px 4px;
+    margin-top: 2%;
+    margin-right: 0.5%;
+    margin-left: 17.5%;
+    border-radius: 5px;
+    overflow: hidden;
+    padding: 8px;
+    background-color: rgba(212, 241, 251, 0.702);
+}
+h3.intro{
+    color: rgb(0, 0, 0);
+    background-color: rgb(44, 192, 255);
+    text-align: center;
+    font-size: 27px;
+    text-transform: capitalize;
+    padding: 10px;
+    margin-top: 0.5%;
+    text-decoration: underline;
+    border: solid black 2px;
+    border-radius: 20px;
+    text-shadow: black 1px 1px 1px;
+    box-shadow: black -1px 2px 3px ;
+    width: 60%;
+    margin: auto;
+}
+section.intro>p{
+    color: rgb(0, 0, 0);
+    font-size: large;
+    padding: 10px;
+    text-align: left;
+    text-indent: 40px;
+    line-height: 33px;
+}
+
+/* founder ki styling */
+div.founder{
+    border: solid black 1px;
+    box-shadow: black -2px 3px 4px, inset rgba(0, 0, 0, 0.218) 2px -3px 4px, inset rgba(0, 0, 0, 0.218) -2px 3px 4px;
+    margin: 1%;
+    margin-top: 3% ;
+    margin-bottom: 3%;
+    border-radius: 5px;
+    padding: 18px;
+    background-color: rgba(219, 174, 249, 0.389);
+    overflow: auto;
+}
+div.founder>h3{
+    color: rgb(0, 0, 0);
+    background-color: rgba(0, 242, 255, 0.647);
+    text-align: center;
+    font-size: 27px;
+    text-transform: capitalize;
+    padding: 10px;
+    margin-top: 0.5%;
+    text-decoration: underline;
+    border: solid black 2px;
+    border-radius: 20px;
+    text-shadow: black 1px 1px 1px;
+    box-shadow: black -1px 2px 3px ;
+    width: 60%;
+    margin: auto;
+}
+div.founder>.founderimage{
+    width: 385px;
+    height: 385px;
+    margin:20px 60px;
+    border-radius: 6px;
+    border: solid black 2px;
+    text-align: center;
+    float: left;
+}
+.founderimage{
+    width:350px;
+    margin: 15px;
+    border-radius: 6px;
+    border: solid black 2px;
+}
+div.founder>div.foundertext{
+    color: rgb(0, 0, 0);
+    font-size: large;
+    padding: 10px;
+    text-align: right;
+    text-indent: 40px;
+    border: solid black 1px;
+    float: right;
+    width: 385px;
+    margin: 20px 50px;
+}
+
+/* opportunity ki style */
+section.opportunity{
+    border: solid black 1px;
+    box-shadow: black -2px 3px 4px, inset rgba(0, 0, 0, 0.218) 2px -3px 4px, inset rgba(0, 0, 0, 0.218) -2px 3px 4px;
+    margin: 1%;
+    margin-top: 3% ;
+    margin-bottom: 3%;
+    border-radius: 5px;
+    padding: 18px;
+    background-color: rgba(174, 220, 249, 0.389);
+    clear: both;
+
+}
+div.opportunityheader{
+    color: rgb(0, 0, 0);
+    background-color: rgba(183, 0, 255, 0.427);
+    text-align: center;
+    font-size: 24px;
+    text-transform: capitalize;
+    padding: 10px;
+    margin-top: 0.5%;
+    text-decoration: underline;
+    border: solid black 2px;
+    border-radius: 20px;
+    text-shadow: black 1px 1px 1px;
+    box-shadow: black -1px 2px 3px ;
+    width: 60%;
+    margin: auto;
+    clear: both;
+
+}
+div.opportunity>img{
+    width: 40%;
+    margin-left: 5%;
+    margin-top: 2%;
+    border-radius: 6px;
+    border: solid black 2px ;
+
+}
+div.opportunity>p{
+    color: rgb(0, 0, 0);
+    font-size: large;
+    padding: 10px;
+    text-align: left;
+    text-indent: 40px;
+}
+
+/* partners ka styling */
+div.partner_details{
+    border: solid black 1px;
+    box-shadow: black -2px 3px 4px, inset rgba(0, 0, 0, 0.218) 2px -3px 4px, inset rgba(0, 0, 0, 0.218) -2px 3px 4px;
+    margin: 1%;
+    margin-top: 3% ;
+    margin-bottom: 3%;
+    border-radius: 5px;
+    padding: 40px;
+    background-color: rgba(219, 174, 249, 0.389);
+    text-align: center;
+    clear: both;
+    height: 900px;
+}
+div.partner_details>h3{
+    color: rgb(0, 0, 0);
+    background-color: rgba(0, 242, 255, 0.647);
+    text-align: center;
+    font-size: 27px;
+    text-transform: capitalize;
+    padding: 10px;
+    margin-top: 0.5%;
+    text-decoration: underline;
+    border: solid black 2px;
+    border-radius: 20px;
+    text-shadow: black 1px 1px 1px;
+    box-shadow: black -1px 2px 3px ;
+    width: 60%;
+    margin: auto;
+}
+div.partner_box>img{
+    width: 400px;
+    border-radius: 6px;
+    border: solid black 2px ;
+}
+div.partner_box{
+    border-radius: 6px;
+    border: solid black 2px;
+    margin:2%;
+    height: fit-content;
+    float: left;
+    width: 450px;
+}
+div.partner_box>p{
+    color: rgb(0, 0, 0);
+    font-size: x-large;
+    padding: 5px;
+}
+
+/* media gallery ki styling */
+section.media{
+    border: solid black 1px;
+    box-shadow: black -2px 3px 4px, inset rgba(0, 0, 0, 0.218) 2px -3px 4px, inset rgba(0, 0, 0, 0.218) -2px 3px 4px;
+    margin: 1%;
+    margin-top: 3% ;
+    margin-bottom: 3%;
+    border-radius: 5px;
+    padding: 18px;
+    background-color: rgba(174, 220, 249, 0.389);
+    text-align: center;
+    clear: both;
+}
+div.media_header>h2{
+    color: rgb(0, 0, 0);
+    background-color: rgba(183, 0, 255, 0.427);
+    text-align: center;
+    font-size: 24px;
+    text-transform: capitalize;
+    padding: 10px;
+    margin-top: 0.5%;
+    text-decoration: underline;
+    border: solid black 2px;
+    border-radius: 20px;
+    text-shadow: black 1px 1px 1px;
+    box-shadow: black -1px 2px 3px ;
+    width: 70%;
+    margin: auto;
+}
+div.media_header>h3{
+    color: rgb(0, 0, 0);
+    background-color: rgba(183, 0, 255, 0.197);
+    text-align: center;
+    font-size: 24px;
+    text-transform: capitalize;
+    padding: 10px;
+    margin-top: 0.5%;
+    text-decoration: underline;
+    border: solid black 2px;
+    border-radius: 20px;
+    text-shadow: black 1px 1px 1px;
+    box-shadow: black -1px 2px 3px ;
+    width: 60%;
+    margin: auto;
+}
+div.opening_ceremony>img, div.our_classes>img{
+    background-color: white;
+    width: 44%;
+    margin: 1%;
+    margin-top: 2%;
+    border-radius: 6px;
+    border: solid black 2px ;
+    padding: 2px;
+}
+div.opening_ceremony>img.ribbon_cutting{
+    width: 65%;
+}
+
+
+/* footer ki styling */
+footer{
+    background-color: rgba(24, 18, 18, 0.759);
+    padding: 20px;
+    margin: 1%;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: black -2px 3px 4px, inset rgb(0, 0, 0) 2px -3px 4px, inset rgba(0, 0, 0, 0.218) -2px 3px 4px;
+}
+img.footer{
+    width: 65%;
+    border: solid black 1px ;
+    border-radius: 38px;
+}
+
+/* media queries responsive banane ke liye */

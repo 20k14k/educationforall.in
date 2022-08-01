@@ -1,0 +1,242 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: aliceblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-right: 4.5%;
+    margin-left: 4.5%;
+    margin-top: 0.9%;
+    margin-bottom: 0.9%;
+}
+
+/* header ki styling */
+div.header{
+    margin-right: 4.5%;
+    margin-left: 4.5%;
+    margin-top: 0.9%;
+    margin-bottom: 0.9%;
+    padding: 5px;
+    border: solid black 3px ;
+    border-radius: 5px;
+    width: fit-content;
+    background-color: white;
+    text-align: center;
+    box-shadow: black -2px 3px 4px, inset rgba(0, 0, 0, 0.218) 2px -3px 4px, inset rgba(0, 0, 0, 0.218) -2px 3px 4px;
+}
+img.header{
+    width: 90%;
+    border: solid black 1px ;
+    border-radius: 4px;
+    margin-right: 4.5%;
+    margin-left: 4.5%;
+    margin-top: 0.9%;
+    margin-bottom: 0.9%;
+}
+
+/* navigation bar ki styling */
+
+a{
+    text-decoration: none;
+    color: white;
+    margin-right: 4.5%;
+    margin-left: 4.5%;
+    margin-top: 0.9%;
+    margin-bottom: 0.9%;
+}
+a:hover{
+    font-weight: bold;
+}
+nav{
+    text-transform: capitalize;
+    background-color: rgb(36 36 36 / 76%);
+    color: white;
+    padding: 8px;
+    text-decoration: none;
+    font-size: 20px;
+    display: flex;
+    overflow: hidden;
+    flex-direction:row;
+    text-align: center;
+    border-radius: 10px;
+    margin-right: 4.5%;
+    margin-left: 4.5%;
+    margin-top: 0.9%;
+    margin-bottom: 0.9%;
+}
+
+/* outer level ki styling */
+section.main{
+    border: solid black 1px;
+    box-shadow: black -2px 3px 4px, inset rgba(0, 0, 0, 0.218) 2px -3px 4px, inset rgba(0, 0, 0, 0.218) -2px 3px 4px;
+    margin-right: 4.5%;
+    margin-left: 4.5%;
+    margin-top: 0.9%;
+    margin-bottom: 0.9%;
+    border-radius: 5px;
+    background-color: rgba(219, 174, 249, 0.221);
+    padding: 30px;
+}
+
+/* outer fieldset ki styling */
+section.personal_details , section.educational_details{
+    border: black 2px solid;
+    border-radius: 5px;
+    background-color: #9dafcd;
+    padding: 10px;
+    margin-right: 4.5%;
+    margin-left: 4.5%;
+    margin-top: 0.9%;
+    margin-bottom: 0.9%;
+    box-shadow: black -2px 3px 4px, inset rgba(0, 0, 0, 0.218) 2px -3px 4px, inset rgba(0, 0, 0, 0.218) -2px 3px 4px;
+}
+
+/* header fieldset ki styling */
+fieldset.personal_details , fieldset.educational_details{
+    text-align: center;
+    padding: 10px;
+    background-color: #919191;
+    font-size: x-large;
+    font-weight: bolder;
+    margin-right: 4.5%;
+    margin-left: 4.5%;
+    margin-top: 0.9%;
+    margin-bottom: 0.9%;
+    border-radius: 5px;
+    box-shadow: black -2px 3px 4px, inset rgba(0, 0, 0, 0.218) 2px -3px 4px, inset rgba(0, 0, 0, 0.218) -2px 3px 4px;
+
+}
+
+/* detail ki styling */
+fieldset.form_question{
+    font-size: larger;
+    text-align: left center;
+    background-color: aliceblue;
+    margin-right: 4.5%;
+    margin-left: 4.5%;
+    margin-top: 0.9%;
+    margin-bottom: 0.9%;
+    text-transform: capitalize;
+    border-radius: 5px;
+}
+
+
+/* input and checkbox and radio and textarea ki styling */
+input.name,.gender,.dob,.guardian_name,.number,.address,.scl_name,.class,.shift{
+    font-size: large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 0.9%;
+    margin-bottom: 0.9%;
+}
+
+input.name, .guardian_name, .number, .scl_name{
+    width: 50%;
+}
+textarea.address{
+    height: 70px;
+    width: 50%;
+    background-color: rgb(255, 255, 255);
+}
+
+/* submit ki styling */
+fieldset.submit{
+        text-align: center;
+        padding: 10px;
+        background-color: rgb(159, 255, 190);
+        font-size: x-large;
+        font-weight: bolder;
+        margin-right: 4.5%;
+        margin-left: 4.5%;
+        margin-top: 0.9%;
+        margin-bottom: 0.9%;
+        border-radius: 5px;
+        box-shadow: black -2px 3px 4px, inset rgba(0, 0, 0, 0.218) 2px -3px 4px, inset rgba(0, 0, 0, 0.218) -2px 3px 4px;
+}
+input.submit{
+    font-size: x-large;
+    font-weight: bolder;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(0, 162, 255);
+    color: white;
+}
+input.submit:hover{
+    cursor: pointer;
+    background-color: brown;
+}
+
+/* footer ki style */
+footer{
+    font-size: large;
+    margin-right: 4.5%;
+    margin-left: 4.5%;
+    margin-top: 0.9%;
+    margin-bottom: 0.9%;
+    padding: 5px;
+    border: solid black 3px ;
+    border-radius: 5px;
+    width: fit-content;
+    background-color: white;
+    text-align: center;
+    box-shadow: black -2px 3px 4px, inset rgba(0, 0, 0, 0.218) 2px -3px 4px, inset rgba(0, 0, 0, 0.218) -2px 3px 4px;
+}
+img.footer{
+    width: 65%;
+    border: solid black 1px ;
+    border-radius: 4px;
+}
+
+
+@media (max-width: 800px){
+    nav{
+        font-size: 8px;
+    }
+    body{
+    margin-right: 0.5%;
+    margin-left: 0.5%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    }
+    fieldset.personal_details, fieldset.educational_details {
+        text-align: center;
+        padding: 4px;
+        background-color: #919191;
+        font-size: large;
+        font-weight: bolder;
+        margin-right: 4.5%;
+        margin-left: 4.5%;
+        margin-top: 0.9%;
+        margin-bottom: 0.9%;
+        border-radius: 5px;
+        box-shadow: black -2px 3px 4px, inset rgb(0 0 0 / 22%) 2px -3px 4px, inset rgb(0 0 0 / 22%) -2px 3px 4px;
+    }
+    section.main{
+        padding: 5px;
+    }
+    fieldset.form_question{
+    margin-right: 0.5%;
+    margin-left: 0.5%;
+    margin-top: 1%;
+    margin-bottom: 0.9%;
+    font-size: small;
+    font-weight: bold;
+    }
+    input.name,.gender,.dob,.guardian_name,.number,.address,.scl_name,.class,.shift{
+        font-size: small;
+    }
+    input.name, .guardian_name, .number, .scl_name{
+        width: 80%;
+    }
+    textarea.address{
+        height: 35px;
+        width: 80%;
+    }
+    footer{
+        font-size: small;
+        margin-right: 4.5%;
+        margin-left: 4.5%;
+        margin-top: 0.9%;
+        margin-bottom: 0.9%;
+        padding: 3px;
+    }
+}

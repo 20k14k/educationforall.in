@@ -60,6 +60,10 @@ div.container_header {
   display: inline;
   padding: 6px;
   margin: 9px;
+  font-size: 20px;
+  text-decoration: none;
+  text-align: center;
+  color: white;
 }
 .navbar li a {
   font-size: 20px;

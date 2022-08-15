@@ -36,7 +36,7 @@ div.container_header {
   left: 10px;
 }
 .mid {
-  display: block;
+  display: flex;
   width: fit-content;
   margin: 25px auto;
   border: 2px solid white;
@@ -320,7 +320,7 @@ div.founderimage > img {
     line-height: 10px;
   }
   div.intro {
-    margin-top: 165px;
+    margin-top: 185px;
   }
   .header {
     font-size: 18px;

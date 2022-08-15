@@ -71,10 +71,11 @@ div.container_header {
   text-align: center;
   color: white;
 }
-.navbar li a:hover,
+.navbar li a:hover,.navbar li:hover,
 .navbar li a.active {
   text-decoration: underline;
   color: rgba(255, 255, 255, 0.695);
+  cursor: pointer;
 }
 
 /* introduction ka CSS */

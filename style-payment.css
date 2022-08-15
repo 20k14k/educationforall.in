@@ -10,12 +10,20 @@ body{
 }
 
 .container{
+    position: absolute;
     display: flex;
-    background-color: transparent;
     width: 100vw;
     align-items: center;
     height: 100vh;
     justify-content: center;
+    background-color: rgba(255, 255, 255, 0.471);
+    transition: all ease-in-out;
+    transform: -50vh -50vw;
+    top: 2vh;
+    visibility: hidden;
+}
+.openpaymentcard{
+    visibility: visible;
 }
 .wrapper{
     display: flex;
